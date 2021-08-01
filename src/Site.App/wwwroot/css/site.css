@@ -66,10 +66,12 @@ body {
     margin-bottom: 60px;
     background-color: #cad1dd;
     /*
-    height: 100%;
-    background-attachment: fixed;
-            background-image: url("../img/sitebackground2.jpg");
+            background-attachment: fixed;
+    background-image: url("../img/sitebackground2.jpg");
     background-repeat: no-repeat;
+       
+    height: 100%;
+
 
     */
 }
@@ -151,5 +153,6 @@ input, select,file , textarea{
     padding: 20px;
     width: 250px;
     height: 280px;
-    background-color: #cad1dd;
+    background-color: #274558;
+    
 }
