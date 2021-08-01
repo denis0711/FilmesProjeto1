@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Site.App.Models.FilmeViewModel>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+
+
+
+        <div class="col-md-4">
+            <div class="boxCustom text-center">
+
+                <p class="text-uppercase" style="color:black">@Html.DisplayFor(modelItem => item.Nome)</p>
+
+
+                <img src="~/Imagens/@item.Imagem" alt="@item.Imagem" style="width: 70px; height: 100px;" /><br />
+
+
+                <p style="color:orangered"> @item.Valor.ToString("C")<br /></p>
+
+
+                <a class="btn btn-warning" asp-controller="Filmes" asp-action="Details" asp-route-id="@item.Id">Comprar</a>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    }
+
+</div>

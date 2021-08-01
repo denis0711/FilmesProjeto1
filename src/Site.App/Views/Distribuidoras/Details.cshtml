@@ -1,0 +1,51 @@
+﻿@model Site.App.Models.DistribuidoraViewModel
+
+@{
+
+    ViewData["Title"] = "Detalhes da " + Model.Nome;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/imagens/@Model.Imagem" alt="@Model.Imagem" style="width: 300px; height: 428px" />
+    </div>
+
+    <hr />
+    <div class="col-md-6">
+        <dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Sobre)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Sobre)
+            </dd>
+
+
+
+        </dl>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-info" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-dark" asp-action="Index">Voltar</a>
+
+</div>
+
+<hr />
+<h4>Lista de Filmes</h4>
+
+<div>
+    <partial name="../Filmes/_listaFilme" model="@Model.Filmes" />
+</div>
+
+
+

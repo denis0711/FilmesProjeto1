@@ -1,0 +1,53 @@
+﻿@model Site.App.Models.FilmeViewModel
+
+@{
+    ViewData["Title"] = "Detalhes do Filme " + Model.Nome;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/imagens/@Model.Imagem" alt="@Model.Imagem" style="width: 300px; height: 428px" />
+    </div>
+
+    <div class="col-md-6">
+        <dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Distribuidora.Nome)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Distribuidora.Nome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Sinopse)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Sinopse)
+            </dd>
+  
+            <dt>
+                @Html.DisplayNameFor(model => model.Valor)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Valor)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Categoria)
+            </dd>
+        </dl>
+    </div>
+</div>
+<div>
+    <a class="btn btn-info" asp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+    <a class="btn btn-dark" asp-action="Index">Voltar</a>
+</div>

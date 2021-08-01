@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Site.App.Models.FilmeViewModel>
+
+
+    <div class="container">
+        <h3>Catalagos de Filmes</h3>
+        <h4>Primeiros Filmes Cadastrados</h4>
+        <p>para pesquisar e escolher o Filme especifico !! </p><br />
+        <a class="btn btn-outline-primary mb-3" asp-controller="Filmes" asp-action="Index">Pesquisar Filme</a><br />
+    </div>
+
+<div>
+    <partial name="_listaFilme.cshtml" />
+
+</div>
