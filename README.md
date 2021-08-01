@@ -11,3 +11,13 @@ conteúdos que aprendi com o Curso Dominando o ASP.NET MVC Core</p>
 
 da para pesquisar um Filme pelo nome !!
 
+<p align="center">
+	<img width="1000" height="700" src="src/Site.App/wwwroot/img/pesquisa.gif"
+</p>
+  
+ # Detalhes das Distribuidoras
+  nela da para ver as informações da distribuidoras e seus Filmes cadastrados
+  
+  <p align="center">
+	<img width="1000" height="700" src="src/Site.App/wwwroot/img/detalhesDistribuidoras.gif"
+</p>
