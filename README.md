@@ -21,3 +21,8 @@ da para pesquisar um Filme pelo nome !!
   <p align="center">
 	<img width="1000" height="700" src="src/Site.App/wwwroot/img/detalhesDistribuidoras.gif"
 </p>
+
+	  
+# Mostrando como Cadastrar um Filme  
+	  
+	  
