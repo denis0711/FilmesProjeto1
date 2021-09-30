@@ -11,7 +11,7 @@ Usando boas praticas com o projeto em camadas com regras de negócio, usando tud
 
 
 # Imagem da Home
-[![Homeimg.png](https://i.postimg.cc/2jbj21k9/Homeimg.png)](https://postimg.cc/vDydmH65)
+[![Screenshot-13.png](https://i.postimg.cc/w38crNhQ/Screenshot-13.png)](https://postimg.cc/T50DLpNK)
 
 da para pesquisar um Filme pelo nome !!
 
