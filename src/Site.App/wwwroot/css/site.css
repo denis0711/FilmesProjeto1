@@ -133,7 +133,7 @@ section#home {
 }
 
 .header {
-    background-color: #274558;
+    background-color: black;
     height: 100px;
 }
 
@@ -156,3 +156,43 @@ input, select,file , textarea{
     background-color: #274558;
     
 }
+
+.tela {
+    margin: 1em auto;
+    width: 85%;
+    
+}
+.image {
+    width: 400px;
+    height: 650px;
+    display: inline-block;
+    position: relative;
+  
+}
+
+    .image figcaption div a p {
+      
+        display: none;
+    }
+
+.image:hover img, figcaption {
+        
+    position: absolute;
+    filter: brightness(25%);
+    color: black;
+     
+}
+
+    .image:hover figcaption a {
+        top: 50%;
+        left: 50%;
+        filter: brightness(100%);
+        display: block;
+    }
+
+
+
+
+
+
+
